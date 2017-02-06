@@ -20,6 +20,24 @@
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
 
+    <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Nexus Releases</name>
+			<url>http://34.248.30.252:8081/repository/Releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Nexus Snapshot</name>
+			<url>http://34.248.30.252:8081/repository/Snapshots/</url>
+		</snapshotRepository>
+		<site>
+			<id>nexus</id>
+			<name>Nexus Sites</name>
+			<url>dav:http://34.248.30.252:8081/nexus/content/sites/site/</url>
+		</site>
+	</distributionManagement>
+    
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
