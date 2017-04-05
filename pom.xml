@@ -25,17 +25,17 @@
 	      <repository>
 			<id>nexus</id>
 			<name>Nexus Releases</name>
-			<url>http://34.248.30.252:8081/repository/Releases/</url>
+			<url>http://192.168.1.200:8081/nexus/repository/Releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Nexus Snapshot</name>
-			<url>http://34.248.30.252:8081/repository/Snapshots/</url>
+			<url>http://192.168.1.200:8081/nexus/repository/Snapshots/</url>
 		</snapshotRepository>
 		<site>
 			<id>nexus</id>
 			<name>Nexus Sites</name>
-			<url>dav:http://34.248.30.252:8081/nexus/content/sites/site/</url>
+			<url>dav:http://192.168.1.200:8081/nexus/content/sites/site/</url>
 		</site>
 	      
 	</distributionManagement>
