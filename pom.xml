@@ -21,7 +21,13 @@
     </properties>
 
     <distributionManagement>
-		<repository>
+		
+	      <repository>
+                      <id>admin</id>
+                      <password>AppName</password>
+                      <url>http://192.168.1.200:8081/nexus/#view-repositories;dev~browsestorage</url>
+               </repository>
+	       <repository>
 			<id>apache-snapshots</id>
 			<name>Apache Snapshots</name>
 			<url>http://192.168.1.200:8081/nexus/#view-repositories;dev~browsestorage</url>
