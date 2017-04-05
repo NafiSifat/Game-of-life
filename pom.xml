@@ -21,7 +21,13 @@
     </properties>
 
     <distributionManagement>
-		<repository>
+		
+	       <repository>
+                       <id>central</id>
+                       <name>Central</name>
+                       <url>http://192.168.1.200:8081/nexus/#view-repositories;central~configuration</url>
+                </repository>
+	        <repository>
 			<id>public</id>
 			<name>Public Repositories</name>
 			<url>http://192.168.1.200:8081/nexus/#view-repositories;public~configuration</url>
